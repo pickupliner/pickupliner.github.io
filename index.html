@@ -954,7 +954,7 @@ function hmm(min, max) {
 }
 let currentdate = new Date();
 let month = currentdate.getMonth() + 1;
-let day = currentdate.getDay()+9;
+let day = currentdate.getDate();
 console.log(day , month);
 if (month == 10 && day == 10) {
   lst.append("are you today's date because you're a 10/10");
